@@ -22,6 +22,7 @@
         font-family: sans-serif;
         color: black;
         padding: 30px 0;
+
     }
     .last {
         background-color: darkslategray;
@@ -43,18 +44,17 @@
 <div class="xyz">
     <h2 style="text-align: center; font-size: 40px;"> Kindly fill this</h2>
     <form action="./home.html">
-  First name: <input type="text" name="fname"><br>
 
-        Last name:<input type="text" name="lname"><br>
-
-   Age:<input type="text" name="age"><br>
-
-        Gender:<input type="text" name="gender"><br>
-
-        Looking for:<input type="text" ><br>
-
-  <button type="submit">Submit Form</button>
-  <button type="reset">Reset Form</button>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=" "><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=" "><br><br>
+  <label for="phone number" >Phone Number:</label><br>
+    <input type="text" id="pnumber" name="pnumber" value=" "><br>
+    <label for="email" >Email:</label><br>
+    <input type="text" id="email" name="Email" value=" "><br>
+  <input type="submit" value="Submit">
+  <input type="reset">Reset Form</input>
 </form>
 </div>
 
@@ -82,6 +82,7 @@
 </body>
 
 </html>
+
 
 
 
